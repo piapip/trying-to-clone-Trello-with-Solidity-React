@@ -1,0 +1,212 @@
+{
+  "contractName": "User",
+  "abi": [],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.8+commit.23d335f2\"},\"language\":\"Solidity\",\"output\":{\"abi\":[],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/thovi/Documents/High_tech/Blockchain/React/check_list/contracts/User.sol\":\"User\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/thovi/Documents/High_tech/Blockchain/React/check_list/contracts/User.sol\":{\"keccak256\":\"0xbe1ecc381aa35f35a07e631c9ce693d7845fdd9319e97a9e22bee6c47656b00d\",\"urls\":[\"bzzr://3820136e2deab6ce3aed5f60304d3f43d91174b52613c750737192285712f932\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603580601d6000396000f3fe6080604052600080fdfea165627a7a72305820964b9993be4a700edcae993bc91367d98c2a6235dfb2407772f977849cac162e0029",
+  "deployedBytecode": "0x6080604052600080fdfea165627a7a72305820964b9993be4a700edcae993bc91367d98c2a6235dfb2407772f977849cac162e0029",
+  "sourceMap": "27:60:6:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:60:6;;;;;;;",
+  "deployedSourceMap": "27:60:6:-;;;;;",
+  "source": "pragma solidity ^0.5.8;\r\n\r\ncontract User {\r\n    address publicKey;\r\n    string name;\r\n}",
+  "sourcePath": "C:/Users/thovi/Documents/High_tech/Blockchain/React/check_list/contracts/User.sol",
+  "ast": {
+    "absolutePath": "/C/Users/thovi/Documents/High_tech/Blockchain/React/check_list/contracts/User.sol",
+    "exportedSymbols": {
+      "User": [
+        1279
+      ]
+    },
+    "id": 1280,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1274,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".8"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1279,
+        "linearizedBaseContracts": [
+          1279
+        ],
+        "name": "User",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1276,
+            "name": "publicKey",
+            "nodeType": "VariableDeclaration",
+            "scope": 1279,
+            "src": "48:17:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 1275,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:7:6",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 1278,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 1279,
+            "src": "72:11:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 1277,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "72:6:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 1280,
+        "src": "27:60:6"
+      }
+    ],
+    "src": "0:87:6"
+  },
+  "legacyAST": {
+    "absolutePath": "/C/Users/thovi/Documents/High_tech/Blockchain/React/check_list/contracts/User.sol",
+    "exportedSymbols": {
+      "User": [
+        1279
+      ]
+    },
+    "id": 1280,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 1274,
+        "literals": [
+          "solidity",
+          "^",
+          "0.5",
+          ".8"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:6"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 1279,
+        "linearizedBaseContracts": [
+          1279
+        ],
+        "name": "User",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "constant": false,
+            "id": 1276,
+            "name": "publicKey",
+            "nodeType": "VariableDeclaration",
+            "scope": 1279,
+            "src": "48:17:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 1275,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "48:7:6",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 1278,
+            "name": "name",
+            "nodeType": "VariableDeclaration",
+            "scope": 1279,
+            "src": "72:11:6",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 1277,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "72:6:6",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "value": null,
+            "visibility": "internal"
+          }
+        ],
+        "scope": 1280,
+        "src": "27:60:6"
+      }
+    ],
+    "src": "0:87:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.8+commit.23d335f2.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.0.11",
+  "updatedAt": "2019-08-05T16:45:34.660Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
