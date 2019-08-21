@@ -5,8 +5,12 @@ contract CheckList {
 
   string name;
   bool finish;
+  bool close;
+  string[] event_log;
   event NewTask();
   event CheckListDone();
+  event CheckListClose();
+  event CheckListOpen();
 
   Task[] tasks;
   uint tasksCount;
@@ -26,9 +30,17 @@ contract CheckList {
   function _unfinish() external {
     finish = false;}
 
-  function _getInfo() public view returns (string memory, bool, uint, uint) {
+  function _close() external {
+    close = true;
+    emit CheckListClose();}
+
+  function _open() external {
+    close = false;
+    emit CheckListOpen();}
+
+  function _getInfo() public view returns (string memory, bool, uint, uint, bool) {
     uint progress = _countFinishedTask();
-    return (name, finish, tasksCount, progress);}
+    return (name, finish, tasksCount, progress, close);}
 
   function _addTask(string calldata _name) external {
     tasks.push(new Task(_name));
