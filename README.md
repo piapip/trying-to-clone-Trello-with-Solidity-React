@@ -15,5 +15,5 @@ Ganache is like the pleb version of insomnia. <br />
 A disgusting coder who take advantage of reactstrap like I am is a lazy coder. However, the readablity increases greatly so other people can help out easily if I stuck at some point.  <br />
 
 
---===> Let's move onto the private blockchain-- 
+~~===> Let's move onto the private blockchain~~
 SOLID rule violated, ==> move onto redesign this project as a lesson about OOP design. It hurts though.
